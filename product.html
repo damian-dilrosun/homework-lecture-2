@@ -5,8 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        th, td{
+            border: 1px solid black;
+        }
+        .active{
+            color: blue;
+        }
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        }
+
+        .copyright{
+            position: fixed;
+            bottom: 0;
+            right: 10px;
+            }
+    </style>
 </head>
+
 <body>
-    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="product.html">Products</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+    </nav>
+<h1>products</h1>
+<table>
+<tr>
+    <!-- heads -->
+    <th>1.Student Dev Pro</th>
+    <th>2.Student Basic </th>
+    <th>3.Student Gamer PC</th>
+
+</tr>
+<tr>
+    <!-- prices -->
+    <td>€ 2,319.99</td>
+    <td>$ 899.99</td>
+    <td>£ 1,299.99</td>
+</tr>
+<tr>
+    <!-- model -->
+    <td>• Windows 10 Home 64</td>
+    <td>• Windows 10 Home 64</td>
+    <td>• Windows 10 Home 64</td>
+</tr>
+<tr>
+    <!-- intel -->
+    <td>• Intel® Core™ i7-7700HQ (2.8 GHz, up to 3.8 GHz, 6MB cache)</td>
+    <td>• Intel® Core™ i7-8750H (2.2 GHz, up to 4.1 GHz, 9MB cache)</td>
+    <td>• Intel® Core™ i7-8750H (2.2 GHz, up to 4.1 GHz, 9MB cache)</td>
+</tr>
+<tr>
+    <!-- NVIDIA® -->
+    <td>• NVIDIA® GeForce® GTX 1080 (8GB GDDR5X dedicated)</td>
+    <td>• NVIDIA® GeForce® GTX 1050 (2GB GDDR5 dedicated)</td>
+    <td>• NVIDIA® GeForce® GTX 1060 (6GB GDDR5 dedicated)</td>
+</tr>
+<tr>
+    <!-- opslag -->
+    <td>• 32GB DDR4-2400 SDRAM; 512GB PCIe® NVMe™ M.2 SSD; 1TB SATA</td>
+    <td>• 8GB DDR4-2666 SDRAM; 1TB 7200 rpm SATA</td>
+    <td>• 16GB DDR4-2666 SDRAM; 1TB 7200 rpm SATA; 16GB PCIe® NVMe™ Intel®</td>
+</tr>
+</table>
+
+<h3 class="copyright">© Student Inc. </h3>
+
 </body>
 </html>
